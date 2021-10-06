@@ -16,5 +16,6 @@ jobs:
       run: |
     - name: test
         make test
-    - name: format
+    - name: Format code
+      run: |
         make format
